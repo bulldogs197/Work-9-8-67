@@ -20,4 +20,8 @@ void main(List<String> args) {
   print(myCake.model);
 
   print(myCake);
+
+  yourCake.nameShop = 'inwza begery';
+  yourCake.model.addAll(['coffe cake', 'totfy cake']);
+  print(yourCake);
 }
